@@ -8,3 +8,26 @@ A bunch of MATLAB files for checking answer to Optimization Problems
 ![license](https://img.shields.io/github/license/agneay/Optimization-Techniques?style=for-the-badge)
 ![stars](https://img.shields.io/github/stars/agneay/Optimization-Techniques?style=for-the-badge)
 ![issues](https://img.shields.io/github/issues/agneay/Optimization-Techniques?style=for-the-badge)
+
+### File Structure 
+```
+optimization-techniques-matlab/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── OneDimensional/
+│   ├── golden_section.m
+│   ├── fibonacci.m
+│
+├── GradientBased/
+│   ├── secant_method.m
+│   ├── newton_method.m
+│
+├── LinearProgramming/
+│   └── simplex_method.m
+│
+└── DirectSearch/
+    └── hooke_jeeves.m
+```
