@@ -1,0 +1,23 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet contributor
+        uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Welcome to **Optimization Techniques**!  
+            Thanks for opening your first issue. We appreciate your interest in improving this project.  
+            Please make sure to check our [Wiki](https://github.com/agneay/Optimization-Techniques/wiki) for details.
+          pr-message: |
+            🎉 Thank you for your first pull request!  
+            We will review it soon. Don't forget to follow our [Contribution Guide](https://github.com/agneay/Optimization-Techniques/wiki/Contributing).
