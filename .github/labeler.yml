@@ -1,0 +1,11 @@
+# .github/labeler.yml
+optimization:
+  - 'OneDimensional/**'
+  - 'MultiDimensional/**'
+docs:
+  - 'docs/**'
+  - '**/*.md'
+scripts:
+  - '**/*.m'
+tests:
+  - 'tests/**'
